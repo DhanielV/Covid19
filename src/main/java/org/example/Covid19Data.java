@@ -2,19 +2,18 @@ package org.example;
 public class Covid19Data {
     private String region;
     private String aldersgruppe;
-    private int bekræftedeTilfældeIAlt;
-    private int døde;
-    private int indlagtePåIntensivAfdeling;
+    private int bekraeftedeTilfaeldeIAlt;
+    private int doede;
+    private int indlagtePaaIntensivAfdeling;
     private int indlagte;
     private String dato;
 
 
-    public Covid19Data(String region,  String aldersgruppe, int bekræftedeTilfældeIAlt, int døde, int indlagtePåIntensivAfdeling, int indlagte, String dato){
+    public Covid19Data(String region,  String aldersgruppe, int bekraeftedeTilfaeldeIAlt, int doede, int indlagtePaaIntensivAfdeling, int indlagte, String dato){
         this.region = region;
         this.aldersgruppe = aldersgruppe;
-        this.bekræftedeTilfældeIAlt = bekræftedeTilfældeIAlt;
-        this.døde = døde;
-        this.indlagtePåIntensivAfdeling = indlagtePåIntensivAfdeling;
+        this.bekraeftedeTilfaeldeIAlt = bekraeftedeTilfaeldeIAlt;
+        this.indlagtePaaIntensivAfdeling = indlagtePaaIntensivAfdeling;
         this.indlagte = indlagte;
         this.dato = dato;
 
@@ -24,9 +23,9 @@ public class Covid19Data {
         return "Covid19Data{" +
                 "region=" + region +
                 "aldersgruppe=" + aldersgruppe +
-                "bekræftede tilfælde i alt" + bekræftedeTilfældeIAlt +
-                "døde=" + døde +
-                "indlagte på intensiv afdeling=" + indlagtePåIntensivAfdeling +
+                "bekræftede tilfælde i alt" + bekraeftedeTilfaeldeIAlt +
+                "doede=" + doede +
+                "indlagte på intensiv afdeling=" + indlagtePaaIntensivAfdeling +
                 "indlagte=" + indlagte +
                 "dato=" + dato +
                 "}";

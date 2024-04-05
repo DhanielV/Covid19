@@ -8,17 +8,15 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class FileHandler {
-    private final File file = new File("11_nøgletal_pr_region_pr_aldersgruppe.csv");
+    private final File file = new File("11_noegletal_pr_region_pr_aldersgruppe.csv");
 
     public ArrayList<Covid19Data> loadAllDatas(){
-        ArrayList<Covid19Data> datas = new ArrayList();
+        ArrayList<Covid19Data> datas = new ArrayList<>();
         Scanner sc = null;
         try {
-            sc = new Scanner(file, StandardCharsets.ISO_8859_1);
+            sc = new Scanner(file, StandardCharsets.UTF_8);
             sc.nextLine();
 
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
