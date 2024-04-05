@@ -14,6 +14,7 @@ public class Covid19Data {
         this.aldersgruppe = aldersgruppe;
         this.bekraeftedeTilfaeldeIAlt = bekraeftedeTilfaeldeIAlt;
         this.indlagtePaaIntensivAfdeling = indlagtePaaIntensivAfdeling;
+        this.doede = doede;
         this.indlagte = indlagte;
         this.dato = dato;
 
@@ -22,12 +23,12 @@ public class Covid19Data {
     public String toString(){
         return "Covid19Data{" +
                 "region=" + region +
-                "aldersgruppe=" + aldersgruppe +
-                "bekræftede tilfælde i alt" + bekraeftedeTilfaeldeIAlt +
-                "doede=" + doede +
-                "indlagte på intensiv afdeling=" + indlagtePaaIntensivAfdeling +
-                "indlagte=" + indlagte +
-                "dato=" + dato +
+                ", aldersgruppe='" + aldersgruppe +
+                ", bekræftede tilfælde i alt'" + bekraeftedeTilfaeldeIAlt +
+                ", doede='" + doede +
+                ", indlagte på intensiv afdeling='" + indlagtePaaIntensivAfdeling +
+                ", indlagte='" + indlagte +
+                ", dato='" + dato +
                 "}";
 
 

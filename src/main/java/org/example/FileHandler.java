@@ -1,14 +1,13 @@
 package org.example;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class FileHandler {
-    private final File file = new File("11_noegletal_pr_region_pr_aldersgruppe.csv");
+    private final File file = new File("src/11_noegletal_pr_region_pr_aldersgruppe.csv");
 
     public ArrayList<Covid19Data> loadAllDatas(){
         ArrayList<Covid19Data> datas = new ArrayList<>();
